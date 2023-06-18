@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="1016.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
+   <children>
+      <ScrollPane layoutX="-34.0" layoutY="-4.0" prefHeight="664.0" prefWidth="1080.0">
+        <content>
+          <AnchorPane focusTraversable="true" minHeight="0.0" minWidth="0.0" prefHeight="1572.0" prefWidth="1103.0" style="-fx-background-color: #211B1E;">
+               <children>
+                  <Pane layoutX="126.0" layoutY="511.0" prefHeight="250.0" prefWidth="160.0" style="-fx-background-color: #ebe6ea; -fx-background-radius: 12;">
+                     <children>
+                        <ImageView fx:id="img1" fitHeight="120.0" fitWidth="116.0" layoutX="22.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Downloads/e04b2683062b6a39311ba3a7fb590392.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="name1" layoutX="20.0" layoutY="164.0" text="Rainbow Bracelet">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="price1" layoutX="55.0" layoutY="183.0" text="149.99">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="button21" layoutX="30.0" layoutY="209.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: #ba5d82;" text="Add to Cart" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Text fill="WHITE" layoutX="64.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="✧ F E T T Y✧">
+                     <font>
+                        <Font name="Gadugi Bold" size="20.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="549.0" fitWidth="1049.0" layoutX="31.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Downloads/355272180_953977769183531_5912701146641600118_n.png" />
+                     </image>
+                  </ImageView>
+                  <Pane layoutX="348.0" layoutY="511.0" prefHeight="250.0" prefWidth="160.0" style="-fx-background-color: #ebe6ea; -fx-background-radius: 12;">
+                     <children>
+                        <ImageView fx:id="img2" fitHeight="126.0" fitWidth="136.0" layoutX="17.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Downloads/ssrco_classic_tee_mens_fafafa_ca443f4786_front_alt_square_product_600x600-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="name2" layoutX="28.0" layoutY="161.0" text="Man Face Shirt">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="price2" layoutX="61.0" layoutY="182.0" text="15.99">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="button2" layoutX="33.0" layoutY="211.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: #ba5d82;" text="Add to Cart" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="575.0" layoutY="511.0" prefHeight="250.0" prefWidth="160.0" style="-fx-background-color: #ebe6ea; -fx-background-radius: 12;">
+                     <children>
+                        <ImageView fx:id="img3" fitHeight="129.0" fitWidth="125.0" layoutX="18.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Downloads/ssrco_slim_fit_t_shirt_mens_fafafa_ca443f4786_front_square_product_600x600-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="name3" layoutX="16.0" layoutY="169.0" text="Woman Face Shirt">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="price3" layoutX="60.0" layoutY="186.0" text="21.99">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="button3" layoutX="32.0" layoutY="206.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: #ba5d82;" text="Add to Cart" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="808.0" layoutY="511.0" prefHeight="250.0" prefWidth="160.0" style="-fx-background-color: #ebe6ea; -fx-background-radius: 12;">
+                     <children>
+                        <ImageView fx:id="img4" fitHeight="136.0" fitWidth="124.0" layoutX="18.0" layoutY="20.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../../../../../Downloads/4441_al_magic_lamp_prop_replica1.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="name4" layoutX="29.0" layoutY="163.0" text="Magic Lamp">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="price4" layoutX="62.0" layoutY="181.0" text="21.99">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="button4" layoutX="33.0" layoutY="202.0" mnemonicParsing="false" onAction="#buy" style="-fx-background-color: #ba5d82;" text="Add to Cart" textFill="#fffdfd">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Button fx:id="cartbutton" layoutX="855.0" layoutY="465.0" mnemonicParsing="false" onAction="#gotocart" prefHeight="37.0" prefWidth="113.0" style="-fx-background-color: #f5d3d5; -fx-background-radius: 20;" text="Cart" textFill="#c95d5d">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
